@@ -1,0 +1,10 @@
+[package]
+name = "carton-ort-wasm-example"
+publish = false
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ort = { version = "=1.15.5", default-features = false }
+image = "0.24"
+ndarray = "0.15"
